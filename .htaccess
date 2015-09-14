@@ -1,0 +1,27 @@
+# don't allow access to the config file
+<Files config*>
+	Order allow,deny
+	Deny from all
+</Files>
+
+# close the php security hole...
+#  not actually needed but probably a good idea anyway
+php_flag register_globals off
+
+# default start with process.php
+DirectoryIndex process.php
+
+# mod rewrite
+# L=last rule, NC=case insensitive
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteBase /
+	
+	# redirect non-www to www
+	RewriteCond %{HTTP_HOST} ^universityofbabel\.org [NC]
+	RewriteRule ^(.*)$ http://www.universityofbabel.org/$1 [R=301]
+	
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule ^([a-zA-Z0-9_\ -]*)(/([a-zA-Z0-9_\ -]*))?$ process.php?p=$1&s=$3 [L,NC,QSA]
+</IfModule>

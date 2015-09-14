@@ -1,0 +1,17 @@
+/* stylesheet for lodeclaassen.nl - Lode Claassen - June 2008 */
+/* specials for IE 7 */
+
+#sitetitle {
+	margin: 0.75em 0;
+	font-size: medium;
+}
+#headline {
+}
+
+#pagelinks li a {
+	letter-spacing: 1px;
+}
+
+#menu {
+	margin-top: 1em;
+}

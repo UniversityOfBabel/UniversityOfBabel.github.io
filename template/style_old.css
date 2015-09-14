@@ -1,0 +1,145 @@
+/* stylesheet for lodeclaassen.nl - Lode Claassen - June 2008 */
+
+body {
+	margin: 0 auto;
+	padding: 0 2em;
+	width: 909px;
+	text-align: center;
+	font: medium Verdana, sans-serif, helvetica;
+	background-color: #EEE;
+}
+body * {
+	text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #622008;
+}
+a {
+	color: #ED5A23;
+	text-decoration: none;
+}
+
+#quickmenu {
+	display: none;
+}
+
+h1#sitetitle {
+	margin-left: 1em;
+	font-size: medium;
+	font-style: italic;
+}
+p#headline {
+	float: right;
+	margin-top: -2em;
+	font-size: small;
+	font-style: italic;
+}
+
+#header {
+	height: 150px;
+	border: 2px solid #777;
+	background-color: #622008;
+}
+
+#photo {
+	float: left;
+	border-width: 0;
+}
+
+#pagelinks {
+}
+#pagelinks li {
+	margin: 1em;
+	list-style-type: none;
+}
+#pagelinks li a {
+	color: #ED5A23;
+	text-decoration: none;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+}
+#pagelinks li a .highlight {
+	padding: 0.1em;
+	color: #F0C38A;
+	background-color: #9B6827;
+}
+#pagelinks li a .small {
+	font-size: smaller;
+}
+#pagelinks li a .link, #pagelinks li a .link:link {
+	color: #FE9D3D;
+	border-bottom: 2px solid #FE9D3D;
+}
+
+#menu {
+	clear: left;
+	float: right;
+	width: 150px;
+	padding-left: 0;
+}
+#menu li {
+	margin: 0 0 0.5em 0;
+	list-style-type: none;
+}
+#menu li a {
+	text-decoration: none;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+}
+
+h2#title {
+	clear: left;
+}
+
+#text {
+	margin: 0.5em;
+	width: 700px;
+}
+#text .project .title {
+	clear: left;
+	margin-top: 0;
+}
+#text .project {
+	clear: left;
+	margin-bottom: 2em;
+}
+#text .project .document {
+}
+#text .project .image {
+	float: left;
+	display: block;
+	margin: 0 1em 0 0;
+	width: 200px;
+	height: 150px;
+}
+#text .projectsingle .image {
+	float: right;
+}
+#text .project .creator {
+	float: right;
+	margin: 0;
+	padding: 0.5em 0 0 0.5em;
+	width: 200px;
+	color: #622008;
+	font-size: x-small;
+	border-left: 1px solid #EAA;
+}
+#text .project .clearer {
+	clear: left;
+}
+#text .projectsingle .clearer {
+	clear: right;
+}
+
+#navlinks {
+	float: right;
+	margin-top: -4.5em;
+}
+
+#copyright {
+	clear: both;
+	text-align: right;
+	font-size: x-small;
+	border-top: 1px solid #AAA;
+}

@@ -1,0 +1,123 @@
+/* stylesheet for universityofbabel.org - Lode Claassen - July 2008 */
+
+body {
+	margin: 0 auto;
+	width: 700px;
+	font: medium Verdana, sans-serif, helvetica;
+	background-color: #EEE8DD;
+}
+a:link, a:hover, a:active {
+	color: #0080BB;
+}
+img {
+	border: 2px solid #EEE8DD;
+}
+a img {
+	border: 2px solid #0080BB;
+}
+.float-left { float: left; }
+.float-right { float: right; }
+.clear-left { clear: left; }
+.clear-right { clear: right; }
+.clear-both { clear: both; }
+
+#body {
+	background-color: #FEFEFE;
+}
+
+#quickmenu {
+	display: none;
+}
+
+#header {
+	height: 149px;
+	border-bottom: 1px dashed #AAA;
+	background-color: #F5F5F5;
+}
+#logo {
+	float: left;
+	margin-left: 20px;
+	width: 200px;
+	height: 149px;
+	border-width: 0;
+}
+	#logo a img {
+		border-width: 0;
+	}
+#sitetitle {
+	display: block;
+	margin-left: 240px;
+	margin-right: 20px;
+	padding-top: 1.1em;
+	width: 440px;
+	text-align: center;
+	border-bottom: 2px solid #0080BB;
+}
+	#sitetitle a {
+		color: #0080BB;
+		text-decoration: none;
+	}
+#headline {
+	margin-left: 240px;
+	margin-right: 20px;
+	font-size: smaller;
+	font-style: italic;
+	text-align: center;
+}
+
+#menu {
+	clear: left;
+	float: right;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 1em;
+	font-size: smaller;
+	background-color: #F5F5F5;
+}
+	#menu h3 {
+		margin: 0;
+		line-height: 1.4em;
+		letter-spacing: 0.1em;
+		font-size: small;
+		font-weight: normal;
+	}
+	#menu li {
+		margin: 0;
+		line-height: 1.4em;
+		letter-spacing: 0.1em;
+	}
+	#menu ul {
+		margin-top: 0;
+		margin-bottom: 1em;
+		list-style-type: circle;
+	}
+
+#title {
+	clear: left;
+	margin: 1em 0 0 1em;
+}
+
+#text {
+	margin: 1em 1em 0;
+}
+	#text h3 {
+	}
+	#text p, #text li {
+		font-size: smaller;
+		line-height: 1.5em;
+	}
+	#text .indent {
+		margin-left: 1em;
+	}
+	#text .image, #text .download {
+	}
+
+#copyright {
+	clear: both;
+	padding: 1em;
+	font-size: x-small;
+	text-align: center;
+	line-height: 1.75em;
+	border-top: 1px dashed #AAA;
+	background-color: #F5F5F5;
+}

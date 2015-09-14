@@ -1,0 +1,25 @@
+/* stylesheet for lodeclaassen.nl - Lode Claassen - June 2008 */
+/* specials for IE 6 */
+
+#sitetitle {
+	margin: 0.75em 0;
+	font-size: medium;
+}
+
+#header {
+	height: 150px;
+}
+
+#photo {
+	margin-right: -3px;
+}
+#pagelinks {
+	padding-top: 1.25em;
+}
+#pagelinks li a {
+	margin: -0.1em;
+}
+
+#menu {
+	margin-top: 1em;
+}
